@@ -1,9 +1,11 @@
-public class hola {
+public class adios {
 
-    static String nombre = "SUPLANTADO";
+    String nombre = "SUPLANTADO";
 
 	//Entra todo aqui
 	public static void main(String [] args){
-		System.out.println("HOLA"+ nombre);
+           adios h = new adios();
+           
+           System.out.println("HOLA"+ h.nombre);
 	}
 }
